@@ -14,6 +14,8 @@
 		F5FE7C761B88AA4500607B7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FE7C751B88AA4500607B7A /* Images.xcassets */; };
 		F5FE7C791B88AA4500607B7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5FE7C771B88AA4500607B7A /* LaunchScreen.xib */; };
 		F5FE7C851B88AA4500607B7A /* ZipManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE7C841B88AA4500607B7A /* ZipManTests.m */; };
+		F5FE7C8F1B88B51F00607B7A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FE7C8E1B88B51F00607B7A /* background.png */; };
+		F5FE7C911B88B5D000607B7A /* package.png in Resources */ = {isa = PBXBuildFile; fileRef = F5FE7C901B88B5D000607B7A /* package.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		F5FE7C7E1B88AA4500607B7A /* ZipManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FE7C831B88AA4500607B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5FE7C841B88AA4500607B7A /* ZipManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipManTests.m; sourceTree = "<group>"; };
+		F5FE7C8E1B88B51F00607B7A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F5FE7C901B88B5D000607B7A /* package.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = package.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		F5FE7C681B88AA4500607B7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5FE7C901B88B5D000607B7A /* package.png */,
+				F5FE7C8E1B88B51F00607B7A /* background.png */,
 				F5FE7C691B88AA4500607B7A /* Info.plist */,
 				F5FE7C6A1B88AA4500607B7A /* main.m */,
 			);
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FE7C741B88AA4500607B7A /* Main.storyboard in Resources */,
+				F5FE7C8F1B88B51F00607B7A /* background.png in Resources */,
+				F5FE7C911B88B5D000607B7A /* package.png in Resources */,
 				F5FE7C791B88AA4500607B7A /* LaunchScreen.xib in Resources */,
 				F5FE7C761B88AA4500607B7A /* Images.xcassets in Resources */,
 			);
